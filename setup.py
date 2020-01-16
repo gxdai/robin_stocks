@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 from os import path
-
+import pdb; pdb.set_trace()
+# __file__: filename of the current file
+# os.path.dirname: relative path of file
+# os.path.abspath: absoluate path
 here = path.abspath(path.dirname(__file__))
 
 with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
